@@ -1,24 +1,23 @@
-# template
+## 项目名称
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+### 说明
+```text
+项目类型：
+包管理式： yarn
+时间： 
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+
+### 版本
+
+#### 0.0.1
+```text
+
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### 功能
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+#### 2020-07-10
+```text
+
+```
