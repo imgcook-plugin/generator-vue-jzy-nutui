@@ -1,29 +1,29 @@
 {
-  "name": "@imgcook/plugin-template",
-  "version": "0.0.1",
-  "description": "plugin template",
+  "name": "@imgcook/generator-react",
+  "version": "0.1.7",
+  "description": "generate a new project from a react template",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=text mocha test/__test__.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/imgcook-plugin/plugin-template.git"
+    "test": "mocha test/__test__.js"
   },
   "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/imgcook-plugin/plugin-template/issues"
+  "license": "ISC",
+  "keywords": [
+    "imgcook",
+    "plugin",
+    "react"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "fs-extra": "^7.0.1",
+    "ora": "^3.4.0"
   },
   "publishConfig": {
+    "registry": "http://registry.npmjs.org/",
     "access": "public"
   },
-  "homepage": "https://github.com/imgcook-plugin/plugin-template#readme",
+  "gitHead": "27bbc51c6df7d11fa6588e33c839dd29f50b7763",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "nyc": "^14.1.1"
-  },
-  "dependencies": {
-    "@imgcook/plugin-images": "0.1.0-alpha.7"
+    "chai": "^4.2.0"
   }
 }
