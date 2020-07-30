@@ -1,5 +1,5 @@
 {
-  "name": "@imgcook/generator-react",
+  "name": "@imgcook/generator-vue-jzynut",
   "version": "0.1.7",
   "description": "generate a new project from a react template",
   "main": "index.js",
