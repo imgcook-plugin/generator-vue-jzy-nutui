@@ -1,7 +1,7 @@
 {
   "name": "@imgcook/generator-vue-jzynut",
   "version": "0.1.7",
-  "description": "generate a new project from a react template",
+  "description": "generate a new project from the VUE template, which is based on Jzy custom Nutui",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/__test__.js"
