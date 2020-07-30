@@ -20,7 +20,7 @@ const generateReactProjectPlugin = async option => {
   if (fse.existsSync(folderPath)) {
     console.log(
       chalk.red(
-        `当前目录已有名为 ${name} 的项目，请 \`cd ${name} && yarn start\` 后访问 http://localhost:3000`
+        `当前目录已有名为 ${name} 的项目，请 \`cd ${name} && yarn serve\` 后访问 http://localhost:8066`
       )
     );
     return;
@@ -56,7 +56,7 @@ const cpAsset = option => {
       });
       spinner.succeed(`应用 \`${name}\` 初始化完成`);
       spinner.succeed(
-        `执行 \`cd ${name} && yarn install && yarn start\` 后访问 http://localhost:3000 查看您的预览页面`
+        `执行 \`cd ${name} && yarn install && yarn serve\` 后访问 http://localhost:8066 查看您的预览页面`
       );
       spinner.succeed(
         `在 \`${name}\` 目录中，您可以 \`imgcook pull 模块id\`，查看您的模块预览效果`
