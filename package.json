@@ -1,6 +1,6 @@
 {
   "name": "@imgcook/generator-vue-jzynut",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "generate a new project from the VUE template, which is based on Jzy custom Nutui",
   "main": "index.js",
   "scripts": {
